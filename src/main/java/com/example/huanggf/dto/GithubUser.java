@@ -28,4 +28,13 @@ public class GithubUser {   //是Provider的返回值
     public void setBio(String bio) {
         this.bio = bio;
     }
+
+    @Override
+    public String toString() {
+        return "GithubUser{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", bio='" + bio + '\'' +
+                '}';
+    }
 }
